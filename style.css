@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.intro-section {
+    text-align: center;
+    padding: 2rem 0;
+    background-color: #f4f4f4;
+}
+
+.cover-image {
+    width: 100%;
+    height: auto;
+}
+
+.intro-content {
+    padding: 1rem;
+}
+
+.intro-content h1 {
+    margin: 0.5rem 0;
+}
+
+.intro-content p {
+    margin: 0.5rem 0 1rem;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.features-section, .about-section, .contact-section {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.feature {
+    margin-bottom: 2rem;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.feature h3 {
+    margin: 0.5rem 0;
+}
+
+.about-section .team {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.team-member {
+    text-align: left;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.contact-section input, .contact-section textarea {
+    padding: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.contact-section button {
+    padding: 0.5rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
